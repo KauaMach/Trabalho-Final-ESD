@@ -1,4 +1,4 @@
-package Set;
+package Map;
 
 public class HashMap {
 }
