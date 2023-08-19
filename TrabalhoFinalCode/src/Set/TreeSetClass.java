@@ -1,4 +1,4 @@
-package Map;
+package Set;
 
 public class TreeSet {
 }
