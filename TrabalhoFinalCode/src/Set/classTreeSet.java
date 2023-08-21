@@ -3,28 +3,39 @@ package Set;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.TreeSet;
+import File.StopwatchCPU;
 
 public class classTreeSet {
     TreeSet<String> treeSet = new TreeSet<String>();
+    private StopwatchCPU stopwatch = new StopwatchCPU();
 
-    public void adicionar(List<String> lista) {
+    public String adicionar(List<String> lista) {
+        stopwatch = new StopwatchCPU();
         treeSet.addAll(lista);
+        double time = stopwatch.elapsedTime();
+        return "TreeSet: " + time;
     }
 
-    public void deletar(List<String> lista) {
+    public String deletar(List<String> lista) {
+        stopwatch = new StopwatchCPU();
         treeSet.removeAll(lista);
+        double time = stopwatch.elapsedTime();
+        return "TreeSet: " + time;
     }
 
-    public List<String> buscar(List<String> lista) {
-        List<String> plavrasEncontradas = new ArrayList<String>();
+    public String buscar(List<String> lista) {
+        List<String> palavrasEncontradas = new ArrayList<String>();
+        stopwatch = new StopwatchCPU();
+
         for (String palavra : treeSet) {
-            for (String palavra2 : lista) {
-                if (palavra.contains(palavra2)) {
-                    plavrasEncontradas.add(palavra);
+            for (String palavraProcurada : lista) {
+                if (palavra.contains(palavraProcurada)) {
+                    palavrasEncontradas.add(palavra);
                 }
             }
         }
-        return plavrasEncontradas;
-    }
 
+        double time = stopwatch.elapsedTime();
+        return "TreeSet: " + time;
+    }
 }

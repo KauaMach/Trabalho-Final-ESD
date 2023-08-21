@@ -3,21 +3,29 @@ package List;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
+import File.StopwatchCPU;
 
 public class classVector {
     Vector<String> vector = new Vector<String>();
+    private StopwatchCPU stopwatch = new StopwatchCPU();
 
-    public void adicionar(List<String> lista) {
+    public String adicionar(List<String> lista) {
+        stopwatch = new StopwatchCPU();
         vector.addAll(lista);
+        double timea = stopwatch.elapsedTime();
+        return "Vector: " + timea;
     }
 
-
-    public void deletar(List<String> lista) {
+    public String deletar(List<String> lista) {
+        stopwatch = new StopwatchCPU();
         vector.removeAll(lista);
+        double timed = stopwatch.elapsedTime();
+        return "Vector: " + timed;
     }
 
-    public List<String> buscar(List<String> lista) {
+    public String buscar(List<String> lista) {
         List<String> palavrasEncontradas = new ArrayList<String>();
+        stopwatch = new StopwatchCPU();
 
         for (String palavra : vector) {
             for (String palavraProcurada : lista) {
@@ -26,8 +34,8 @@ public class classVector {
                 }
             }
         }
-        return palavrasEncontradas;
+
+        double timeb = stopwatch.elapsedTime();
+        return "Vector: " + timeb;
     }
-
-
 }

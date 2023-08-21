@@ -1,1 +1,70 @@
+HashMap
+HashMap: 0.046875
+HashMap: 0.0
+HashMap: 0.0
+HashMap
+HashMap: 0.03125
+HashMap: 0.0
+HashMap: 0.0
+HashMap
+HashMap: 0.03125
+HashMap: 0.0
+HashMap: 0.0
+HashMap
+HashMap: 0.0
+HashMap: 0.0
+HashMap: 0.0
+HashMap
+HashMap: 0.03125
+HashMap: 0.0
+HashMap: 0.0
 
+LinkedHashMap
+LinkedHashMap: 0.046875
+LinkedHashMap: 0.0
+LinkedHashMap: 0.0
+LinkedHashMap
+LinkedHashMap: 0.03125
+LinkedHashMap: 0.0
+LinkedHashMap: 0.0
+LinkedHashMap
+LinkedHashMap: 0.03125
+LinkedHashMap: 0.0
+LinkedHashMap: 0.0
+LinkedHashMap
+LinkedHashMap: 0.046875
+LinkedHashMap: 0.0
+LinkedHashMap: 0.0
+LinkedHashMap
+LinkedHashMap: 0.03125
+LinkedHashMap: 0.0
+LinkedHashMap: 0.0
+LinkedHashMap
+LinkedHashMap: 0.0625
+LinkedHashMap: 0.0
+LinkedHashMap: 0.0
+
+TreeMap
+TreeMap: 0.234375
+TreeMap: 0.0
+TreeMap: 0.0
+TreeMap
+TreeMap: 0.1875
+TreeMap: 0.0
+TreeMap: 0.0
+TreeMap
+TreeMap: 0.1875
+TreeMap: 0.0
+TreeMap: 0.0
+TreeMap
+TreeMap: 0.203125
+TreeMap: 0.0
+TreeMap: 0.0
+TreeMap
+TreeMap: 0.203125
+TreeMap: 0.0
+TreeMap: 0.0
+TreeMap
+TreeMap: 0.21875
+TreeMap: 0.0
+TreeMap: 0.0

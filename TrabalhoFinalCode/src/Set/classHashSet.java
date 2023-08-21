@@ -3,29 +3,39 @@ package Set;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
+import File.StopwatchCPU;
 
 public class classHashSet {
     HashSet<String> hashsets = new HashSet<String>();
+    private StopwatchCPU stopwatch = new StopwatchCPU();
 
-    public void adicionar(List<String> lista) {
+    public String adicionar(List<String> lista) {
+        stopwatch = new StopwatchCPU();
         hashsets.addAll(lista);
+        double time = stopwatch.elapsedTime();
+        return "HashSet: " + time;
     }
 
-
-    public void deletar(List<String> lista) {
+    public String deletar(List<String> lista) {
+        stopwatch = new StopwatchCPU();
         hashsets.removeAll(lista);
+        double time = stopwatch.elapsedTime();
+        return "HashSet: " + time;
     }
 
-    public List<String> buscar(List<String> lista) {
-        ArrayList<String> plavrasEncontradas = new ArrayList<String>();
+    public String buscar(List<String> lista) {
+        ArrayList<String> palavrasEncontradas = new ArrayList<String>();
+        stopwatch = new StopwatchCPU();
+
         for (String palavra : hashsets) {
-            for (String palavra2 : lista) {
-                if (palavra.contains(palavra2)) {
-                    plavrasEncontradas.add(palavra);
+            for (String palavraProcurada : lista) {
+                if (palavra.contains(palavraProcurada)) {
+                    palavrasEncontradas.add(palavra);
                 }
             }
         }
-        return plavrasEncontradas;
-    }
 
+        double time = stopwatch.elapsedTime();
+        return "HashSet: " + time;
+    }
 }

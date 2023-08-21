@@ -1,20 +1,29 @@
 package List;
 
 import java.util.ArrayList;
+import File.StopwatchCPU;
 
 public class classArrayList {
     ArrayList<String> arrayList = new ArrayList<String>();
+    private StopwatchCPU stopwatch = new StopwatchCPU();
 
-    public void adicionar(ArrayList<String> lista) {
+    public String adicionar(ArrayList<String> lista) {
+        stopwatch = new StopwatchCPU();
         arrayList.addAll(lista);
+        double timea = stopwatch.elapsedTime();
+        return "ArrayList: " + timea;
     }
 
-    public void deletetar(ArrayList<String> lista) {
+    public String deletar(ArrayList<String> lista) {
+        stopwatch = new StopwatchCPU();
         arrayList.removeAll(lista);
+        double timed = stopwatch.elapsedTime();
+        return "ArrayList: " + timed;
     }
 
-    public ArrayList<String> buscar(ArrayList<String> lista) {
+    public String buscar(ArrayList<String> lista) {
         ArrayList<String> palavrasEncontradas = new ArrayList<String>();
+        stopwatch = new StopwatchCPU();
 
         for (String palavra : arrayList) {
             for (String palavraProcurada : lista) {
@@ -23,6 +32,8 @@ public class classArrayList {
                 }
             }
         }
-        return palavrasEncontradas;
+
+        double timeb = stopwatch.elapsedTime();
+        return "ArrayList: " + timeb;
     }
 }

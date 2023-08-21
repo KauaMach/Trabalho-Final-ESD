@@ -1,1 +1,62 @@
+ArrayList
+ArrayList: 0.0
+ArrayList: 0.03125
+ArrayList: 0.015625
+ArrayList
+ArrayList: 0.0
+ArrayList: 0.046875
+ArrayList: 0.015625
+ArrayList
+ArrayList: 0.0
+ArrayList: 0.03125
+ArrayList: 0.03125
+ArrayList
+ArrayList: 0.0
+ArrayList: 0.046875
+ArrayList: 0.015625
+ArrayList
+ArrayList: 0.0
+ArrayList: 0.046875
+ArrayList: 0.015625
 
+LinkedList
+LinkedList: 0.0
+LinkedList: 0.046875
+LinkedList: 0.03125
+LinkedList
+LinkedList: 0.0
+LinkedList: 0.03125
+LinkedList: 0.015625
+LinkedList
+LinkedList: 0.0
+LinkedList: 0.046875
+LinkedList: 0.015625
+LinkedList
+LinkedList: 0.015625
+LinkedList: 0.0625
+LinkedList: 0.015625
+LinkedList
+LinkedList: 0.015625
+LinkedList: 0.046875
+LinkedList: 0.015625
+
+Vector
+Vector: 0.015625
+Vector: 0.03125
+Vector: 0.015625
+Vector
+Vector: 0.0
+Vector: 0.03125
+Vector: 0.03125
+Vector
+Vector: 0.015625
+Vector: 0.078125
+Vector: 0.03125
+Vector
+Vector: 0.0
+Vector: 0.046875
+Vector: 0.03125
+Vector
+Vector: 0.015625
+Vector: 0.03125
+Vector: 0.03125

@@ -1,0 +1,66 @@
+HashSet
+HashSet: 0.03125
+HashSet: 0.046875
+HashSet: 0.0
+HashSet
+HashSet: 0.03125
+HashSet: 0.046875
+HashSet: 0.0
+HashSet
+HashSet: 0.03125
+HashSet: 0.046875
+HashSet: 0.0
+HashSet
+HashSet: 0.03125
+HashSet: 0.046875
+HashSet: 0.0
+HashSet
+HashSet: 0.03125
+HashSet: 0.046875
+HashSet: 0.0
+HashSet
+HashSet: 0.03125
+HashSet: 0.046875
+HashSet: 0.0
+
+LinkedHashSet
+LinkedHashSet: 0.03125
+LinkedHashSet: 0.046875
+LinkedHashSet: 0.0
+LinkedHashSet
+LinkedHashSet: 0.03125
+LinkedHashSet: 0.046875
+LinkedHashSet: 0.0
+LinkedHashSet
+LinkedHashSet: 0.03125
+LinkedHashSet: 0.03125
+LinkedHashSet: 0.0
+LinkedHashSet
+LinkedHashSet: 0.046875
+LinkedHashSet: 0.046875
+LinkedHashSet: 0.0
+LinkedHashSet
+LinkedHashSet: 0.03125
+LinkedHashSet: 0.046875
+LinkedHashSet: 0.0
+
+TreeSet
+TreeSet: 0.15625
+TreeSet: 0.0625
+TreeSet: 0.0
+TreeSet
+TreeSet: 0.15625
+TreeSet: 0.046875
+TreeSet: 0.0
+TreeSet
+TreeSet: 0.140625
+TreeSet: 0.046875
+TreeSet: 0.0
+TreeSet
+TreeSet: 0.140625
+TreeSet: 0.0625
+TreeSet: 0.0
+TreeSet
+TreeSet: 0.15625
+TreeSet: 0.0625
+TreeSet: 0.0
